@@ -12,7 +12,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  background: #f8faf9;
+  background: #fff;
   font-size: 17px;
   line-height: 1.75;
   overflow-wrap: anywhere;
@@ -23,11 +23,7 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background:
-    radial-gradient(ellipse at 8% 12%, rgba(157, 209, 185, .3), transparent 42%),
-    radial-gradient(ellipse at 95% 45%, rgba(191, 214, 234, .3), transparent 42%),
-    radial-gradient(ellipse at 30% 92%, rgba(210, 227, 213, .25), transparent 42%),
-    linear-gradient(145deg, #fff, #f5f8f6 60%, #fff);
+  background: #fff;
 }
 a { color: var(--accent); text-underline-offset: 4px; }
 a:hover { text-decoration-thickness: 2px; }
@@ -77,7 +73,7 @@ p { margin: 12px 0; }
   padding: 26px;
   margin: 28px 0;
   border-radius: 25px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, .82), rgba(226, 240, 233, .48));
+  background: linear-gradient(135deg, rgba(255, 255, 255, .82), rgba(255, 255, 255, .48));
   border: 1px solid rgba(255, 255, 255, .96);
   box-shadow: 0 10px 30px rgba(23, 76, 58, .07), inset 0 1px 0 #fff, inset 0 -1px 0 rgba(23, 76, 58, .05);
   -webkit-backdrop-filter: blur(18px) saturate(150%);
